@@ -1,10 +1,103 @@
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-size: 14px;
+  /* line-height: 1.5; */
+  background-color: #942425;
+  display: flex;
+  flex-direction: column;
   line-height: 1.5;
+  margin-left: 80px;
+  margin-right: 80px;
 }
 
 .container {
-  max-width: 960px;
-  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 10px;
+  
+  
+  
+}
+.containername {
+  gap: 0; 
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: .75;
+  
+}
+h1{
+  font-family: 'Playfair Display SC', sans-serif;
+  font-weight: normal;
+  text-align: left;
+  color: white;
+
+}
+h2{
+  font-family: 'Playfair Display SC', sans-serif;
+  font-weight: normal;
+  text-align: left;
+  color: white;
+  font-size: 48px;
+}
+
+.dashed-line {
+  border-top:  6px dashed white;
+  width: 160%; 
+  height: 1px; 
+  margin: 2px 0; 
+}
+.icon-container{
+  width: 130px;
+  height: 130px;
+  overflow: hidden;
+  border-radius: 50%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  border: 7px solid white;
+  
+}
+.icon{
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+  object-position:center;
+  object-position: -80% 20%;
+  transform:scale(1.6);
+}
+.mainTextContainer{
+  display: flex;
+}
+.mainImageContainer{
+  width: 100%;
+  height: 584px;
+  overflow: hidden;
+  border-radius: 40px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+  box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.mainArt{
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+  object-position:center;
+  object-position: 0% 10%;
+  transform:scale(1);
+}
+
+.sittingArt{
+
+}
+
+.rectangle{
+  opacity: 76%;
+  color: black;
+  rotate: -130.67deg;
 }

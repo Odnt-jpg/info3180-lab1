@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<title>My Website - About</title>
+</head>
+<body>
+<div class = "container">
+    <div class = 'containername'>
+        <h1  style="font-size: 64px;  margin-bottom: 0;">Raheem </h1>
+        <h1  style="font-size: 96px; margin-top: 0; font-weight: bold;margin-bottom: 25px;">DOMAN</h1>
+        <hr class="dashed-line">
+    </div>
+    <div class = 'icon-container'>
+        <img src="{{ url_for('static', filename='images/chibi as23ia.png') }}" alt="IconImage" class="icon">
+    </div>
+    
+    
+</div>
+<div class = "mainImageContainer">
+    <div class = "rectangle"></div>
+    <img src="{{ url_for('static', filename='images/al.png') }}" alt="Al:D" class="mainArt"/>
+    
+</div>
+<h2> About Me</h2>
+    <p>My name is Raheem Doman, I major in Software Engineering. My favorite YouTube channel is Tomorrow’s Teaching. Jemoi Adia Elaine Johnson told me to type this.</p>
+
+
+</body>
+</html>
