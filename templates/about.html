@@ -1,40 +1,37 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8"><link rel="stylesheet" href="My%20Website%20-%20About_files/app.css">
-
-<link rel="preconnect" href="https://fonts.googleapis.com/">
-<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
-<link href="My%20Website%20-%20About_files/css2.css" rel="stylesheet">
-<meta charset="UTF-8">
-<title>My Website - About</title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Website - About</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
-<div class="container">
-    <div class="containername">
-        <h1 style="font-size: 64px;  margin-bottom: 0;">Raheem </h1>
-        <h1 style="font-size: 96px; margin-top: 0; font-weight: bold;margin-bottom: 25px;">DOMAN</h1>
-        <hr class="dashed-line">
-        <img src="My%20Website%20-%20About_files/Asia-Sitting.gif" class="sittingArt" alt="IconImage">
+    <div class="container">
+        <div class="containername">
+            <h1 style="font-size: 64px; margin-bottom: 0;">Raheem</h1>
+            <h1 style="font-size: 96px; margin-top: 0; font-weight: bold; margin-bottom: 25px;">DOMAN</h1>
+            <hr class="dashed-line">
+            <img src="{{ url_for('static', filename='images/Asia-Sitting.gif') }}" class="sittingArt" alt="IconImage">
+        </div>
 
+        <div class="icon-container">
+            <img src="{{ url_for('static', filename='images/chibi as23ia.png') }}" alt="IconImage" class="icon">
+        </div>
     </div>
-    <div class="icon-container">
-        <img src="My%20Website%20-%20About_files/chibi%20as23ia.png" alt="IconImage" class="icon">
+
+    <div class="mainImageContainer">
+        <div class="rectangle"></div>
+        
+        <img src="{{ url_for('static', filename='images/al.png') }}" alt="Al:D" class="mainArt">
+
+        <h2>About Me</h2>
+
+        <hr class="dashed-line" style="position: absolute; left: 990px; top: 200px; z-index: 50; width: 268px">
+
+        <p>My name is Raheem Doman, I major in Software Engineering. My favorite YouTube channel is CoryxKenshin.</p>
     </div>
-    
-    
-</div>
-<div class="mainImageContainer">
-    <h2> ABOUT ME</h2><hr class="dashed-line" style="position: absolute;left:990px; top: 200px; z-index: 50; width: 268px">
-    <p>My
-        name is Raheem Doman, I major in Software Engineering. My favorite 
-        YouTube channel is Tomorrow’s Teaching. Jemoi Adia Elaine Johnson told 
-        me to type this.</p><div class="rectangle"></div>
-    <img src="My%20Website%20-%20About_files/al.png" alt="Al:D" class="mainArt">
-    
-</div>
-
-    
-
-
-
-</body></html>
+</body>
+</html>

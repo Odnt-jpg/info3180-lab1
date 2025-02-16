@@ -126,15 +126,16 @@ h2{
 }
 
 p{
-  position: absolute;
+  position: relative;
   font-family: "Quantico", serif;
   font-weight: 400;
-  font-style: normal;
+  font-style: regular;
   color: white;
   line-height: auto;
   font-size: 24px;
   width: 430px;
-  left:900px;
+  margin-top:60px;
+  left: 400px;
   text-align: center;
   z-index: 30;
 }
